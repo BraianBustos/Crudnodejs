@@ -1,0 +1,31 @@
+<%- include('header') -%>
+<title>CRUD SQLite y Node</title>
+<h1>Contacto</h1>
+<p> Si necesita más información a cerca de nuestros productos o servicios, póngase en contacto con nosotros.</p>
+<form>
+    <div class="form-group cuadro" style="width:750px"">
+        <input type="text" class="form-control" placeholder="Nombre (Requerido)">
+    </div>
+
+    <div class="form-group cuadro" style="width:750px"">
+        <input type="email" class="form-control" placeholder="Correo electrónico (Requerido)">
+    </div>
+
+    <div class="form-group cuadro" style="width:750px"">
+        <input type="text" class="form-control" placeholder="Asunto (Requerido)">
+    </div>
+
+    <div class="form-group cuadro" style="width:750px"">
+        <input type="text" class="form-control" placeholder="Número de contacto (Requerido)">
+    </div>
+
+    <div>
+        <label><strong> Déjanos tu mensaje</strong></label>
+        <textarea class="form-control cuadro  espacio" cols="20" maxlength="32000" rows="7"></textarea>
+    </div>
+
+    <center>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </center>
+</form>
+<%- include('footer') -%>
